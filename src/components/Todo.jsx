@@ -50,7 +50,7 @@ setTodolist(complete)
           return(
             
          <div style={{height:'50px',backgroundColor:'white'}} className='d-flex align-items-center justify-content-between m-4 p-3'>
-              <p  style={{fontSize:'20px'}} className={item.status?'list-complete':""}  >{item.list}  </p> 
+              <p  style={{fontSize:'20px',textTransform:'capitalize'}} className={item.status?'list-complete':"" } >{item.list}  </p> 
            <div className='icon '>
 
               <i onClick={()=>{
