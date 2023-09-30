@@ -1,0 +1,8 @@
+body{
+    font-family: 'McLaren', cursive;
+}
+.list-complete{
+    text-decoration: line-through;
+    opacity: 0.3;
+    
+}
